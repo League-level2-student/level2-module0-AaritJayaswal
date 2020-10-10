@@ -37,7 +37,7 @@ Random ran = new Random();
 			
 			numbers[n] = r;
 			
-			System.out.println(numbers[n]);            
+			System.out.println(numbers[n]);   
 		}
 	
 		
@@ -45,9 +45,25 @@ Random ran = new Random();
 		//7. use a for loop to make every value of the integer array a random number
 		
 		//8. without printing the entire array, print only the smallest number in the array
-		System.out.println(getSmallest(numbers,50));
-		//9 print the entire array to see if step 8 was correct
+	for(int x = 1; x<numbers.length;x++) {
 		
+		int num1 = x;
+		
+		int num2 = x+1;
+		
+		if(numbers[num1]>numbers[num2]) {
+			
+			numbers[x]=numbers[num2];
+			
+			numbers[x+1]= numbers[num1];
+			
+			
+		}
+		
+		
+	}
+		//9 print the entire array to see if step 8 was correct
+		     
 		//10. print the largest number in the array.
 		
 	}
