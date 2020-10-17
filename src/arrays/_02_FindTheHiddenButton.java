@@ -39,9 +39,9 @@ public class _02_FindTheHiddenButton implements ActionListener{
 		
 		int posNum = Integer.parseInt(posNumString);
 		
-		System.out.println(posNum);
-		//4. Initialize the array of JButtons to be the size of the int created in step 3
 		
+		//4. Initialize the array of JButtons to be the size of the int created in step 3
+		buttons = new JButton[posNum];
 		//5. Make a for loop to iterate through the JButton array
 			//6. initialize each JButton in the array
 			//7. add the ActionListener to each JButton
